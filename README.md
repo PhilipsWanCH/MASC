@@ -1,9 +1,3 @@
-# MASC
-
-以下是针对第一位审稿人的建议，撰写的 **GitHub 开源代码的 README 文件**，用于解释我们的 Multi-Agent Scheduling Chain (MASC) 代码及其补充材料的使用方法。
-
----
-
 # MASC: Large Language Model-Based Multi-Agent Scheduling Chain for Flexible Job Shop Scheduling Problem
 
 ## Introduction
@@ -134,7 +128,7 @@ If you use our work, please cite:
 ```
 @article{MASC2025,
   title={MASC: Large Language Model-Based Multi-Agent Scheduling Chain for Flexible Job Shop Scheduling Problem},
-  author={Your Name, et al.},
+  author={Zelong Wang,Chenhui Wan,Jie Liu,Xi Zhang,Haifeng Wang,Youmin Hu,Zhongxu Hu.},
   journal={Advanced Engineering Informatics},
   year={2025}
 }
@@ -143,17 +137,7 @@ If you use our work, please cite:
 ---
 
 ## Acknowledgments
-This work is supported by [Funding Agency Name] under project number **XXXXX**.
+This work was supported in part by the National Key Research and Development Program of China (No. 2023YFD2100905), National Natural Science Foundation of China (No. 52205104).
 
-For questions, please contact: [YourEmail@domain.com](mailto:YourEmail@domain.com)
+For questions, please contact: [zhongxu_hu@hust.edu.cn](mailto:zhongxu_hu@hust.edu.cn)
 
----
-
-这样，**README 文件**详细介绍了：
-- MASC 代码的安装与运行
-- 相关实验的数据和 reproducibility 细节
-- 运行不同实验的方法
-- 代码的 benchmark 结果
-- 如何引用我们的工作
-
-你可以直接将这个 **README** 上传至 **GitHub**，或者进行适当的修改后使用！
