@@ -25,7 +25,7 @@ To set up the MASC framework, follow these steps:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YourUsername/MASC-Scheduling.git
+git clone https://github.com/PhilipsWanCH/MASC.git
 cd MASC-Scheduling
 ```
 
