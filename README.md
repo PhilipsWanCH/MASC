@@ -21,9 +21,9 @@ This repository includes:
 ---
 
 ## Requirements
-Python >= 3.8
-PyTorch >= 1.12.0 (2.0.0 and above are recommended)
-Transformers >= 4.38
+- **Python >= 3.8**
+- **PyTorch >= 1.12.0 (2.0.0 and above are recommended)**
+- **Transformers >= 4.38**
 
 ---
 
