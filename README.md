@@ -14,7 +14,6 @@ This repository includes:
 ## Features
 - **Multi-Agent Coordination:** Agents for observation, scheduling, planning, and control.
 - **LLM-Driven Decision Making:** Enhanced scheduling through LLM-powered **SchedAgent**.
-- **Reinforcement Learning Integration:** Adaptive scheduling optimization.
 - **Flexible Scheduling Capabilities:** Supports both **simulated** and **real-world** execution.
 - **Knowledge Retention via DialBag:** Improves scheduling efficiency without forgetting previous knowledge.
 
