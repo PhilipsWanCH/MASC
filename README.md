@@ -32,7 +32,7 @@ This repository includes:
 
 **HellaSwag** [2]: A dataset designed to evaluate commonsense reasoning in language models.
 
-**MMLU **(Massive Multitask Language Understanding) [3]: A dataset covering various knowledge domains for evaluating LLM generalization.
+**MMLU** (Massive Multitask Language Understanding) [3]: A dataset covering various knowledge domains for evaluating LLM generalization.
 
 **SchedQA**: A dataset specifically generated using the gen_ReAct_data script to evaluate scheduling-related question-answering performance.
 
