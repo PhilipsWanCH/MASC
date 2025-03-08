@@ -28,13 +28,13 @@ This repository includes:
 
 ## Datasets and Benchmarks
 
-ARC (AI2 Reasoning Challenge) [1]: A dataset for testing machine reasoning abilities.
+**ARC** (AI2 Reasoning Challenge) [1]: A dataset for testing machine reasoning abilities.
 
-HellaSwag [2]: A dataset designed to evaluate commonsense reasoning in language models.
+**HellaSwag** [2]: A dataset designed to evaluate commonsense reasoning in language models.
 
-MMLU (Massive Multitask Language Understanding) [3]: A dataset covering various knowledge domains for evaluating LLM generalization.
+**MMLU **(Massive Multitask Language Understanding) [3]: A dataset covering various knowledge domains for evaluating LLM generalization.
 
-SchedQA: A dataset specifically generated using the gen_ReAct_data script to evaluate scheduling-related question-answering performance.
+**SchedQA**: A dataset specifically generated using the gen_ReAct_data script to evaluate scheduling-related question-answering performance.
 
 [1] P. Clark, I. Cowhey, et al., “Think you have solved question answering? Try ARC, the AI2 reasoning challenge,” 2018, arXiv:1803.05457.
 
