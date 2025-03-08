@@ -20,86 +20,6 @@ This repository includes:
 
 ---
 
-## Installation
-To set up the MASC framework, follow these steps:
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/PhilipsWanCH/MASC.git
-cd MASC-Scheduling
-```
-
-### 2. Create and activate a virtual environment (optional)
-```bash
-python3 -m venv masc_env
-source masc_env/bin/activate  # For macOS/Linux
-masc_env\Scripts\activate     # For Windows
-```
-
-### 3. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Download pretrained LLM models (if applicable)
-Our **fine-tuned LLM models** are available via Hugging Face:
-```bash
-pip install transformers
-```
-Then, download the pre-trained model:
-```python
-from transformers import AutoModelForCausalLM, AutoTokenizer
-model_name = "YourHuggingFaceModel"
-model = AutoModelForCausalLM.from_pretrained(model_name)
-tokenizer = AutoTokenizer.from_pretrained(model_name)
-```
-
----
-
-## Dataset & Experimental Setup
-Our dataset includes:
-1. **FJSP Scheduling Scenarios:** Various manufacturing job shop scheduling cases.
-2. **Simulation Data:** Scheduling results from different optimization techniques.
-3. **Real-World Data:** Robotic arm scheduling experiment results.
-
-Datasets are stored in `data/` and formatted as `.csv` files:
-```
-data/
-├── fjsp_scheduling_cases.csv
-├── simulation_results.csv
-├── real_robot_experiment.csv
-```
-
-To **replicate our experiments**, run:
-```bash
-python run_experiment.py --mode simulation  # For simulated scheduling
-python run_experiment.py --mode real_robot  # For real-world scheduling
-```
-
----
-
-## Usage
-### 1. Running the MASC framework
-To execute the MASC framework, run:
-```bash
-python masc_main.py
-```
-This will initialize **ObsAgent, SchedAgent, PlanAgent, and CtrlAgent** for job shop scheduling.
-
-### 2. Running the scheduling optimization
-For scheduling task execution, use:
-```bash
-python masc_scheduler.py --algorithm GA  # Use Genetic Algorithm
-python masc_scheduler.py --algorithm MIP  # Use Mixed Integer Programming
-```
-
-### 3. Running the DialBag fine-tuning
-To fine-tune the LLM with **DialBag**:
-```bash
-python train_dialbag.py --dataset fjsp_scheduling_cases.csv
-```
-
----
 
 ## Reproducibility
 To ensure reproducibility, we provide:
@@ -138,6 +58,3 @@ If you use our work, please cite:
 
 ## Acknowledgments
 This work was supported in part by the National Key Research and Development Program of China (No. 2023YFD2100905), National Natural Science Foundation of China (No. 52205104).
-
-For questions, please contact: [m202170481@alumni.hust.edu.cn](mailto:m202170481@alumni.hust.edu.cn); [wanchenhui@hust.edu.cn](mailto:wanchenhui@hust.edu.cn); [zhongxu_hu@hust.edu.cn](mailto:zhongxu_hu@hust.edu.cn)
-
