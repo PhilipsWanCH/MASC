@@ -26,17 +26,6 @@ This repository includes:
 
 ---
 
-
-## Reproducibility
-To ensure reproducibility, we provide:
-- **Preprocessed scheduling datasets**
-- **Fine-tuned LLM model weights**
-- **Simulation & real-world scheduling experiment logs**
-
-For any inconsistencies, please open an issue.
-
----
-
 ## Results & Benchmarks
 Our experimental results demonstrate:
 | Method                | ARC (%) | HellaSwag (%) | MMLU (%) | SchedQA (%) |
