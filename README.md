@@ -44,7 +44,7 @@ SchedQA: A dataset specifically generated using the gen_ReAct_data script to eva
 
 ---
 
-## Results
+## Experiment & Results
 Our experimental results demonstrate:
 | Method                | ARC (%) | HellaSwag (%) | MMLU (%) | SchedQA (%) |
 |----------------------|---------|--------------|----------|-------------|
